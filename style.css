@@ -1,0 +1,59 @@
+body {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+    justify-content: center;
+    height: auto;
+    padding: 50px;
+    background-color: white;
+    background-color: pink;
+}
+
+h1 {
+    font-size: 60px;
+    color: black;
+    text-align: center;
+
+}
+
+#form{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+
+}
+
+#list {
+    
+   list-style-type: none;
+  
+    width: 70vw;
+}
+
+#item {
+    list-style-type: none;
+    width: 70vw;
+}
+
+#form__input{
+    width: 100%;
+    margin-right: 30px;
+}
+#form__btn{
+    justify-self: end;
+}
+
+.disclaimer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
